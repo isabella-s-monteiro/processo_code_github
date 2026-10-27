@@ -1,21 +1,23 @@
 # Projeto de Análise de Dados com Python
 
+## Visão Geral
+
 Este projeto serve para organizar, limpar e analisar dados. Ele usa Python com Pandas para tratar as tabelas, SQL para puxar as informações do banco e a biblioteca Rich para deixar as respostas no terminal mais fáceis de ler.
 
-## Como o projeto está organizado
+## Estrutura do Projeto
 
 * data/: Pasta onde entram os arquivos originais (CSV, JSON) e onde salvamos os dados já limpos.
 * src/: Scripts em Python que fazem a limpeza e a transformação dos dados.
 * queries/: Arquivos com as consultas em SQL usadas para buscar as informações.
 * main.py: Arquivo principal que roda todo o processo.
 
-## O que você precisa ter instalado
+## Pré-requisitos
 
 * Python 3.10 ou mais recente
 * Acesso a um banco de dados SQL
 * O instalador pip
 
-## Bibliotecas usadas
+## Dependências
 
 * pandas
 * rich
@@ -26,7 +28,7 @@ Para instalar todas de uma vez, rode no terminal:
 
 pip install -r requirements.txt
 
-## Passo a passo para rodar
+## Instruções de Execução
 
 1. Baixe o projeto para a sua máquina:
    git clone <URL_DO_REPOSITORIO>
@@ -44,3 +46,4 @@ pip install -r requirements.txt
 
 4. Rode o programa:
    python main.py
+
