@@ -26,7 +26,7 @@ Para instalar todas de uma vez, rode no terminal:
 
 pip install -r requirements.txt
 
-### Passo a passo para rodar
+## Passo a passo para rodar
 
 1. Baixe o projeto para a sua máquina:
    git clone <URL_DO_REPOSITORIO>
